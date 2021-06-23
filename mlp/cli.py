@@ -1,9 +1,9 @@
 """MLP - machine-learning-production
 
 Usage: 
-    mlp.py train <dataset-dir> <model-file> [--vocab-size=,vocab-size>]
-    mlp.py ask <model-file> <question>
-    mlp.py (-h | --help)
+    mlp-cli train <dataset-dir> <model-file> [--vocab-size=,vocab-size>]
+    mlp-cli ask <model-file> <question>
+    mlp-cli (-h | --help)
     
 Arguments:
     <dataset-dir>   Directory with dataset.
