@@ -13,7 +13,7 @@ class Dataset:
                  test_dir=Path('data/raw/aclImdb/test')):
 
         self.train_dir = Path(train_dir)
-        self.test.dir = Path(test_dir)
+        self.test_dir = Path(test_dir)
 
     def _get_set(self, directory, limit=None):
 
